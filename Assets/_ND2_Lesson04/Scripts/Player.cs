@@ -3,6 +3,9 @@ using UnityEngine.InputSystem;
 
 public class Player : MonoBehaviour
 {
+
+    //Vector3.Cross();       //外積：結果がVector3型
+    //ector3.Dot();　　　　　//内積：結果がfloat型
     public float moveSpeed = 5.0f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
